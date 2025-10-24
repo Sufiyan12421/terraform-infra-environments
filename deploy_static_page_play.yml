@@ -1,6 +1,6 @@
 ---
 - name: Install Nginx and serve static website
-  hosts: prd
+  hosts: servers
   become: yes
   tasks:
     - name: Install nginx
